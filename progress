@@ -1,0 +1,9 @@
+During the first stage of the project, the repository structure and project files were created. The dataset was downloaded, inspected, and analyzed using exploratory data analysis. Fake and real news datasets were merged, labels were added, and several visualizations were created to understand class distribution and text length characteristics.
+
+After the initial analysis, text preprocessing was performed. The dataset was split into training, validation, and test sets. TF-IDF vectorization was applied, and a Logistic Regression baseline model was trained and evaluated using accuracy, precision, recall, F1-score, and confusion matrix.
+
+In the third stage, deep learning models were implemented using PyTorch. Tokenization, vocabulary construction, sequence encoding, and padding were performed for sequence modeling. Several recurrent neural network architectures were explored, including RNN, LSTM, and GRU models.
+
+The models were trained and evaluated on the fake news classification task. Loss curves and evaluation metrics were analyzed to compare model performance. The LSTM and GRU models demonstrated better contextual understanding compared to the baseline model.
+
+Overall, the project successfully progressed from dataset preparation and baseline modeling to deep learning implementation and evaluation. The next step of the project is to improve the models further, perform error analysis, and develop a Streamlit application for interactive fake news prediction.
